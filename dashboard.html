@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <div id="info"></div>
+  <button onclick="toggleSelling('start')">Start Data Selling</button>
+  <button onclick="toggleSelling('stop')">Stop Data Selling</button>
+  <br><br>
+  <input type="number" id="wd_amount" placeholder="Amount">
+  <input type="text" id="wd_method" placeholder="UPI ID / Bank">
+  <button onclick="withdraw()">Withdraw</button>
+  <script src="app.js"></script>
+</body>
+</html>
